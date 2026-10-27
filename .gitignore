@@ -1,0 +1,18 @@
+# Exclude Nextflow execution directories and logs
+.nextflow/
+.nextflow.log*
+work/
+# Exclude local data and results
+data/
+results/
+# Exclude compressed reads and alignments just in case
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+# OS metadata
+.DS_Store
+Thumbs.db
